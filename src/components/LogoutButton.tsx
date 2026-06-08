@@ -1,6 +1,6 @@
 "use client";
 
-import { supabase } from "@/lib/supabase";
+import { getSupabase } from "@/lib/supabase";
 import { useRouter } from "@/navigation";
 import { LogOut } from "lucide-react";
 
@@ -8,7 +8,7 @@ export default function LogoutButton() {
     const router = useRouter();
 
     const handleLogout = async () => {
-        await supabase.auth.signOut();
+        await getSupabase().auth.signOut();
         router.push("/admin/login");
         router.refresh(); // Refresh to trigger server re-evaluation
     };

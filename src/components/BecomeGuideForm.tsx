@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
+import { getSupabase } from "@/lib/supabase";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, Send, Phone, User, Mail, MessageSquare } from "lucide-react";
@@ -21,7 +21,7 @@ export default function BecomeGuideForm() {
         e.preventDefault();
         setLoading(true);
 
-        const { error } = await supabase.from("guide_applications").insert([formData]);
+        const { error } = await getSupabase().from("guide_applications").insert([formData]);
 
         if (error) {
             alert(error.message);

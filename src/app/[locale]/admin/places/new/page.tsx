@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
+import { getSupabase } from "@/lib/supabase";
 import { useRouter } from "@/navigation";
 import { useTranslations } from "next-intl";
 import { ArrowLeft, Save } from "lucide-react";
@@ -22,7 +22,7 @@ export default function NewPlace() {
         e.preventDefault();
         setLoading(true);
 
-        const { error } = await supabase.from("places").insert([{
+        const { error } = await getSupabase().from("places").insert([{
             name: formData.name,
             category: formData.category,
             coordinates: `(${formData.lat},${formData.lng})` // Supabase POINT format
