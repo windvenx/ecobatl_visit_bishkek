@@ -1,0 +1,198 @@
+{
+    "Common": {
+        "visitBishkek": "Visit Bishkek",
+        "loading": "Loading...",
+        "hours": "Hours",
+        "cost": "Cost Estimate",
+        "duration": "Duration",
+        "difficulty": "Difficulty",
+        "stopsLabel": "Main Stops",
+        "applied": "Applied ✓",
+        "retry": "Retry",
+        "back": "Back"
+    },
+    "Navbar": {
+        "safety": "Safety",
+        "quick": "Quick Start",
+        "routes": "Routes",
+        "map": "Map",
+        "food": "Food",
+        "guides": "Guides"
+    },
+    "Hero": {
+        "title1": "Bishkek — ",
+        "titleSafe": "Safe",
+        "titleRemaining": ", Green & Beautiful",
+        "subtitle": "Everything you need to know before your trip to the heartland of Central Asia. Discover hidden gems and navigate with ease.",
+        "isItSafe": "Is it safe?",
+        "startExploring": "Start exploring"
+    },
+    "Map": {
+        "title": "Interactive Guide Map",
+        "filters": {
+            "all": "All",
+            "food": "Food",
+            "parks": "Parks",
+            "emergency": "Emergency"
+        }
+    },
+    "Safety": {
+        "title": "Is Bishkek safe?",
+        "ratingDesc": "Global Safety Index Rating",
+        "crime": "Crime Index",
+        "crimeDesc": "Lower than Istanbul & Bangkok",
+        "tourists": "Tourists Yearly",
+        "touristsDesc": "3M+ visitors and growing",
+        "emergency": "Emergency Response",
+        "emergencyDesc": "102 Police, 103 Ambulance",
+        "mythFact": "Myth vs Fact",
+        "myths": [
+            {
+                "myth": "Kyrgyzstan is dangerous",
+                "fact": "Safety level comparable to Georgia and Armenia. Violent crime against tourists is extremely rare."
+            },
+            {
+                "myth": "No normal food or hotels",
+                "fact": "Bishkek has 200+ cafes, international hotels including Marriott, Sheraton, and Hyatt."
+            },
+            {
+                "myth": "Language barrier everywhere",
+                "fact": "Russian is widely spoken by everyone. English is common in tourist areas, cafes, and among youth."
+            },
+            {
+                "myth": "Bad roads and transport",
+                "fact": "Yandex Go taxi works great — it's cheap, safe, and reliable with fixed prices in the app."
+            }
+        ]
+    },
+    "QuickStart": {
+        "title": "Your first 24 hours in Bishkek",
+        "desc": "Essential checklist to get you started comfortably.",
+        "offlineNote": "This page works offline — save it before your flight",
+        "items": {
+            "sim": "SIM Card: MegaCom or Beeline, buy at airport, ~200 KGS",
+            "taxi": "Taxi: Yandex Go app, safe and cheap (~100-200 KGS in city)",
+            "money": "Money: ATMs everywhere, Visa/Mastercard widely accepted",
+            "emergency": "Emergency: 102 (Police), 103 (Ambulance), 101 (Fire)",
+            "hospital": "Hospital: National Hospital — ul. Togolok Moldo 1",
+            "currency": "Currency: Kyrgyzstani Som (KGS), 1 USD ≈ 87 KGS"
+        }
+    },
+    "Routes": {
+        "title": "Choose Your Adventure",
+        "desc": "Hand-picked trails by locals to experience the real Bishkek.",
+        "viewOnMap": "View on Map",
+        "cityWalk": {
+            "title": "1 Day City Walk",
+            "duration": "4-5 hours",
+            "difficulty": "Easy",
+            "stops": [
+                "TSUM",
+                "Ala-Too Square",
+                "Oak Park",
+                "Heroes Memorial",
+                "Philharmonic",
+                "Youth Alley"
+            ]
+        },
+        "greenBishkek": {
+            "title": "Green Bishkek",
+            "duration": "3-4 hours",
+            "difficulty": "Medium",
+            "stops": [
+                "Panfilov Park",
+                "Botanical Garden",
+                "Karagach Grove",
+                "Southern Gates"
+            ]
+        },
+        "streetArt": {
+            "title": "Street Art & Bazaars",
+            "duration": "2-3 hours",
+            "difficulty": "Easy",
+            "stops": [
+                "Osh Bazaar",
+                "Kievskaya Mural",
+                "Art Block",
+                "Chuy Underpass",
+                "Vostok 5"
+            ]
+        }
+    },
+    "FoodCulture": {
+        "title": "Eat, explore, respect",
+        "desc": "Local flavors and cultural etiquette for an authentic experience.",
+        "mustTry": "Must try food",
+        "culturalTips": "Cultural tips",
+        "foods": {
+            "beshbarmak": {
+                "name": "Beshbarmak",
+                "desc": "National dish: boiled meat with noodles"
+            },
+            "laghman": {
+                "name": "Laghman",
+                "desc": "Hand-pulled noodle soup with veggies"
+            },
+            "samsa": {
+                "name": "Samsa",
+                "desc": "Flaky pastry with meat or veggie filling"
+            },
+            "kumys": {
+                "name": "Kumys",
+                "desc": "Fermented mare's milk (adventurous!)"
+            }
+        },
+        "tips": [
+            "Remove shoes when entering homes",
+            "Dress modestly when visiting mosques",
+            "Bargaining is expected at bazaars",
+            "Always ask permission before taking photos of locals",
+            "Tipping: 10% is appreciated but not mandatory"
+        ]
+    },
+    "Guides": {
+        "title": "Meet your local guides",
+        "desc": "Young Bishkek residents who know every corner of the city and are ready to show you the real vibe.",
+        "becomeGuide": "Become a guide",
+        "specialties": {
+            "architecture": "Soviet Architecture",
+            "food": "Street Food",
+            "nature": "Nature Trails",
+            "art": "Modern Art",
+            "night": "Night Life",
+            "history": "History & Bazaars"
+        }
+    },
+    "Footer": {
+        "tagline": "A student-led digital guide for tourists. Our mission is to show the beauty and safety of Bishkek to the world.",
+        "quickLinks": "Quick Links",
+        "contact": "Contact",
+        "rights": "© 2026 Visit Bishkek. All rights reserved.",
+        "madeBy": "Made by students of Bishkek — EcoBattle 2026"
+    },
+    "Game": {
+        "title": "Do you know Bishkek?",
+        "next": "Next →",
+        "scoreLabel": "You got {score}/5!",
+        "shareText": "I scored {score}/5 on Visit Bishkek! 🏔"
+    },
+    "Admin": {
+        "loginTitle": "Admin Access",
+        "loginDesc": "Sign in to manage Visit Bishkek",
+        "email": "Email Address",
+        "password": "Password",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing In...",
+        "dashboard": "Dashboard",
+        "places": "Places",
+        "routes": "Routes",
+        "guides": "Guides",
+        "applications": "Applications",
+        "logout": "Logout",
+        "addPlace": "Add Place",
+        "edit": "Edit",
+        "delete": "Delete",
+        "save": "Save",
+        "cancel": "Cancel"
+    }
+}
